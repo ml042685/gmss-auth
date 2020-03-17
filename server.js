@@ -14,11 +14,11 @@ app.use(
 );
 app.use(bodyParser.json());
 // DB Config
-//const db = require("./config/keys").mongoURI;
+const db = process.env.MONGODB_URI || require("./config/keys").mongoURI;
 // Connect to MongoDB
 mongoose
   .connect(
-    process.env.MONGODB_URI, {
+    db, {
       useNewUrlParser: true
     }
   )
