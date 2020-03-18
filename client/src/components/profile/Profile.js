@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { logoutUser } from '../../actions/authActions';
+import homes from '../../homes.json';
+import HouseCard from '../housecard/Housecard';
 import './style.css';
 class Profile extends Component {
 	onLogoutClick = (e) => {
@@ -17,7 +19,7 @@ class Profile extends Component {
 					<div class="navbar-fixed">
 						<div
 							id="sideNav"
-							className="col s12 m4 l3 z-depth-1 hoverable full-width side-bar valign-wrapper"
+							className="left col s12 m4 l3 z-depth-1 hoverable full-width side-bar valign-wrapper grey lighten-3"
 						>
 							<div className="container">
 								<h5 className="blue-text sidenav">Links</h5>
@@ -38,14 +40,35 @@ class Profile extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="right col s12 m8 l9">
-						<h4>
-							<b>Hey there,</b> {user.name.split(' ')[0]}
-							<p className="flow-text grey-text text-darken-1">
-								You are logged into You're GMSS Profile{' '}
-								<span style={{ fontFamily: 'monospace' }}>MERN</span> app 👏
-							</p>
-						</h4>
+					<div className="right col push-s3 s12 m8 l9" id="homeCards">
+						<HouseCard
+							name={homes[0].name}
+							image={homes[0].image}
+							description={homes[0].description}
+							rooms={homes[0].rooms}
+							price={homes[0].price}
+						/>
+						<HouseCard
+							name={homes[1].name}
+							image={homes[1].image}
+							rooms={homes[1].rooms}
+							description={homes[1].description}
+							price={homes[1].price}
+						/>
+						<HouseCard
+							name={homes[2].name}
+							image={homes[2].image}
+							rooms={homes[2].rooms}
+							description={homes[2].description}
+							price={homes[2].price}
+						/>
+						<HouseCard
+							name={homes[3].name}
+							image={homes[3].image}
+							rooms={homes[3].rooms}
+							description={homes[3].description}
+							price={homes[3].price}
+						/>
 					</div>
 				</div>
 			</div>

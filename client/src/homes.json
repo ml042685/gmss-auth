@@ -1,0 +1,93 @@
+[{
+    "id": 1,
+    "name": "Suburban Home",
+    "image": "https://media.istockphoto.com/photos/empty-white-new-construction-cottage-house-just-completed-picture-id1128971667?k=6&m=1128971667&s=612x612&w=0&h=-1j8bOD-2JuMdgTg07D-YjhKQP7sB9S1B-4F1MdeNWA=",
+    "description": "THis is a beautiful suburban home! It is in a great nieghborhood too!",
+    "rooms": [{
+        "id": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/minimal-bedroom-small-spaces-1551546274.jpg?crop=0.640xw:1.00xh;0.174xw,0&resize=640:*",
+        "price": "$350/Month"
+      },
+      {
+        "id": 2,
+        "image": "https://i.pinimg.com/originals/22/7e/b6/227eb6fef14786c1ad627379ac22c8ab.jpg",
+        "price": "$300/Month"
+      },
+      {
+        "id": 3,
+        "image": "https://i.pinimg.com/originals/6f/22/3c/6f223ccdfcfdba572513d6beecb65de5.jpg",
+        "price": "$370/Month"
+      }
+    ],
+    "price": "$300/Month"
+  },
+  {
+    "id": 2,
+    "name": "Summer Shack",
+    "image": "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "description": "THis is a beautiful summer shack! It is in a great nieghborhood too!",
+    "rooms": [{
+        "id": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/minimal-bedroom-small-spaces-1551546274.jpg?crop=0.640xw:1.00xh;0.174xw,0&resize=640:*",
+        "price": "$350/Month"
+      },
+      {
+        "id": 2,
+        "image": "https://i.pinimg.com/originals/22/7e/b6/227eb6fef14786c1ad627379ac22c8ab.jpg",
+        "price": "$300/Month"
+      },
+      {
+        "id": 3,
+        "image": "https://i.pinimg.com/originals/6f/22/3c/6f223ccdfcfdba572513d6beecb65de5.jpg",
+        "price": "$370/Month"
+      }
+    ],
+    "price": "$350/Month"
+  },
+  {
+    "id": 3,
+    "name": "Country Cottage",
+    "image": "https://lh3.googleusercontent.com/proxy/3UVXBvJXTeUvyyqYCNwDiYpLD_GH7OuABPgv5jI3uxvdwyah0T-kEeJ8AjKh1G2qeQMaR8aKMTbJfQK2ia70m7rA22a-PfczWz5emUro6bQQaSG2u5j_U9vOdBR1vLukaeAHP7uip-LJg9Y",
+    "description": "THis is a lovely Country Cottage! It is in a great nieghborhood too!",
+    "rooms": [{
+        "id": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/minimal-bedroom-small-spaces-1551546274.jpg?crop=0.640xw:1.00xh;0.174xw,0&resize=640:*",
+        "price": "$350/Month"
+      },
+      {
+        "id": 2,
+        "image": "https://i.pinimg.com/originals/22/7e/b6/227eb6fef14786c1ad627379ac22c8ab.jpg",
+        "price": "$300/Month"
+      },
+      {
+        "id": 3,
+        "image": "https://i.pinimg.com/originals/6f/22/3c/6f223ccdfcfdba572513d6beecb65de5.jpg",
+        "price": "$370/Month"
+      }
+    ],
+    "price": "$375/Month"
+  },
+  {
+    "id": 4,
+    "name": "Pool House",
+    "image": "https://developmentscostadelsol.com/wp-content/uploads/2019/01/Terrace-651x323.jpg",
+    "description": "THis is a relaxing House with a pool! It is in a great nieghborhood too!",
+    "rooms": [{
+        "id": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/minimal-bedroom-small-spaces-1551546274.jpg?crop=0.640xw:1.00xh;0.174xw,0&resize=640:*",
+        "price": "$350/Month"
+      },
+      {
+        "id": 2,
+        "image": "https://i.pinimg.com/originals/22/7e/b6/227eb6fef14786c1ad627379ac22c8ab.jpg",
+        "price": "$300/Month"
+      },
+      {
+        "id": 3,
+        "image": "https://i.pinimg.com/originals/6f/22/3c/6f223ccdfcfdba572513d6beecb65de5.jpg",
+        "price": "$370/Month"
+      }
+    ],
+    "price": "$500/Month"
+  }
+]
