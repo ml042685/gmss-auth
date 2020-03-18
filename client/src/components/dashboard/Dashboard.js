@@ -27,7 +27,8 @@ class Dashboard extends Component {
       <
       div className = "row" >
       <
-      div className = "col s12 m4 l3 z-depth-1 center-align" >
+      div className = "col s12 m4 l3 z-depth-1 hoverable center-align" >
+
       <
       button style = {
         {
@@ -52,9 +53,7 @@ class Dashboard extends Component {
       <
       b > Hey there, < /b> {user.name.split(" ")[0]} <
       p className = "flow-text grey-text text-darken-1" >
-      You are logged into a full - stack {
-        " "
-      } <
+      You are logged into You 're GMSS Profile{" "} <
       span style = {
         {
           fontFamily: "monospace"
