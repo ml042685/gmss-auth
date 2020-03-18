@@ -15,8 +15,6 @@ class Navbar extends Component {
       <
       a href = "#!"
       className = "brand-logo" > < /a> <
-      ul className = "right hide-on-med-and-down" >
-      <
       Link to = "/"
       style = {
         {
@@ -25,7 +23,6 @@ class Navbar extends Component {
       }
       className = "col s5 brand-logo waves-effect waves-lightcenter black-text" > < i className = "material-icons" > code < /i>GMSS</Link >
       <
-      /ul> <
       /div> <
       /nav> <
       /div>
