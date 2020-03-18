@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: "mongodb+srv://gmssAdmin:GOspursgo!!1234@sumspaceprofile-hiqac.mongodb.net/test?retryWrites=true&w=majority",
+    mongoURI: "http://localhost:5000/api/users/register",
     secretOrKey: "secret"
 };

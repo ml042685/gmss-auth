@@ -27,7 +27,7 @@ class Dashboard extends Component {
       <
       div className = "row" >
       <
-      div className = "col s12 m4 l6 z-depth-1 hoverable left-align" >
+      div className = "col push-s12 push-m4 push-l6 z-depth-1 hoverable left-align" >
 
       <
       button style = {
@@ -47,7 +47,7 @@ class Dashboard extends Component {
       /div>
 
       <
-      div className = "col s12 m8 l9" >
+      div className = "col pull-s12 pull-m8 pull-l9" >
       <
       h4 >
       <
