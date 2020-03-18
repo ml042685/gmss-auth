@@ -43,18 +43,3 @@ class Navbar extends Component {
   }
 }
 export default Navbar;
-
-<
-Link
-to = "/"
-style = {
-  {
-    fontFamily: "monospace"
-  }
-}
-className = "col s5 brand-logo center black-text" >
-  <
-  i className = "material-icons" > code < /i>
-MERN
-  <
-  /Link>
