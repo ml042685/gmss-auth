@@ -23,11 +23,11 @@ class Dashboard extends Component {
           height: "75vh"
         }
       }
-      className = "container valign-wrapper" >
+      className = "container" >
       <
       div className = "row" >
       <
-      div className = "col s12 m4 l3 z-depth-1 hoverable center-align" >
+      div className = "col s12 m4 l3 z-depth-1 hoverable" >
 
       <
       button style = {
