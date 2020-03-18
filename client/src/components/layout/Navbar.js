@@ -19,21 +19,15 @@ class Navbar extends Component {
       <
       li >
       <
-      a className = "waves-effect waves-light btn" >
-      <
       Link to = "/"
       style = {
         {
           fontFamily: "monospace"
         }
       }
-      className = "col s5 brand-logo center black-text" > < i className = "material-icons" > code < /i>GMSS</Link >
+      className = "col s5 brand-logo waves-effect waves-lightcenter black-text" > < i className = "material-icons" > code < /i>GMSS</Link >
       <
-      /a> <
       /li> <
-      li > < a className = "waves-effect waves-light btn" > Button < i className = "material-icons right" > cloud < /i></a > < /li> <
-      li > < a className = "waves-effect waves-light btn-large" > Large Button < /a></li >
-      <
       /ul> <
       /div> <
       /nav> <
