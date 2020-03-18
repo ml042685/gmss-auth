@@ -14,7 +14,12 @@ class Navbar extends Component {
       div className = "nav-wrapper" >
       <
       a href = "#!"
-      className = "brand-logo" >
+      className = "brand-logo" > < /a> <
+      ul className = "right hide-on-med-and-down" >
+      <
+      li >
+      <
+      a className = "waves-effect waves-light btn" >
       <
       Link to = "/"
       style = {
@@ -22,16 +27,10 @@ class Navbar extends Component {
           fontFamily: "monospace"
         }
       }
-      className = "col s5 brand-logo center black-text" >
+      className = "col s5 brand-logo center black-text" > < i className = "material-icons" > code < /i>GMSS</Link >
       <
-      i className = "material-icons" > code < /i>
-      MERN <
-      /Link> <
       /a> <
-      ul className = "right hide-on-med-and-down" >
-      <
-      li > < a className = "waves-effect waves-light btn" > Button < /a></li >
-      <
+      /li> <
       li > < a className = "waves-effect waves-light btn" > Button < i className = "material-icons right" > cloud < /i></a > < /li> <
       li > < a className = "waves-effect waves-light btn-large" > Large Button < /a></li >
       <
