@@ -11,7 +11,7 @@ class Navbar extends Component {
       <
       nav >
       <
-      div className = "nav-wrapper" >
+      div className = "nav-wrapper blue lighten-3" >
       <
       a href = "#!"
       className = "brand-logo" > < /a> <

@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: "http://localhost:5000/api/users/register",
+    mongoURI: "mongodb://localhost:27017/mern-auth",
     secretOrKey: "secret"
 };

@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { logoutUser } from '../../actions/authActions';
 import './style.css';
-class Dashboard extends Component {
+class Profile extends Component {
 	onLogoutClick = (e) => {
 		e.preventDefault();
 		this.props.logoutUser();
@@ -20,12 +20,12 @@ class Dashboard extends Component {
 							className="col s12 m4 l3 z-depth-1 hoverable full-width side-bar valign-wrapper"
 						>
 							<div className="container">
-								<h5 className="white-text sidenav">Links</h5>
+								<h5 className="blue-text sidenav">Links</h5>
 								<ul>
 									<a className="grey-text text-lighten-3">
 										<Link to="/dashboard">Dashboard</Link>
 									</a>
-									<a className="grey-text text-lighten-3" href="/profile">
+									<a className="grey-text text-lighten-3">
 										<Link to="/profile">Profile</Link>
 									</a>
 								</ul>
@@ -52,11 +52,11 @@ class Dashboard extends Component {
 		);
 	}
 }
-Dashboard.propTypes = {
+Profile.propTypes = {
 	logoutUser: PropTypes.func.isRequired,
 	auth: PropTypes.object.isRequired
 };
 const mapStateToProps = (state) => ({
 	auth: state.auth
 });
-export default connect(mapStateToProps, { logoutUser })(Dashboard);
+export default connect(mapStateToProps, { logoutUser })(Profile);
