@@ -30,6 +30,9 @@ class Profile extends Component {
 									<a className="grey-text text-lighten-3">
 										<Link to="/profile">Profile</Link>
 									</a>
+									<a className="grey-text text-lighten-3">
+										<Link to="/newhouse">Add house</Link>
+									</a>
 								</ul>
 								<button
 									onClick={this.onLogoutClick}
