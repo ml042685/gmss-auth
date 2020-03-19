@@ -1,0 +1,16 @@
+body {
+    background: url(/assets/img/br3.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h4 {
+    color: #2196f3;
+    font-size: 3rem;
+    text-shadow: 1px 2px 3px black;
+}
+
+p {
+    color: rgb(218, 218, 218);
+    font-weight: bold;
+    text-shadow: .5px .5px .5px black;
+}
