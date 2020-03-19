@@ -19,7 +19,7 @@ class Profile extends Component {
 					<div class="navbar-fixed">
 						<div
 							id="sideNav"
-							className="left col s12 m4 l3 z-depth-1 hoverable full-width side-bar valign-wrapper grey lighten-3"
+							className="left col s12 m4 l2 z-depth-1 hoverable full-width side-bar valign-wrapper grey lighten-3"
 						>
 							<div className="container">
 								<h5 className="blue-text sidenav">Links</h5>
@@ -40,7 +40,7 @@ class Profile extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="right col push-s3 s12 m8 l9" id="homeCards">
+					<div className="right col push-s3 s12 m8 l10" id="homeCards">
 						<HouseCard
 							name={homes[0].name}
 							image={homes[0].image}
