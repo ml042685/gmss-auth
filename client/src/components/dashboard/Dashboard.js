@@ -25,7 +25,7 @@ class Dashboard extends Component {
 									<a className="grey-text text-lighten-3">
 										<Link to="/dashboard">Dashboard</Link>
 									</a>
-									<a className="grey-text text-lighten-3" href="/profile">
+									<a className="grey-text text-lighten-3">
 										<Link to="/profile">Profile</Link>
 									</a>
 								</ul>
@@ -38,14 +38,42 @@ class Dashboard extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="right col s12 m8 l9">
-						<h4>
-							<b>Hey there,</b> {user.name.split(' ')[0]}
-							<p className="flow-text grey-text text-darken-1">
-								You are logged into You're GMSS Profile{' '}
-								<span style={{ fontFamily: 'monospace' }}>MERN</span> app 👏
-							</p>
-						</h4>
+					<div className="right col s12 m8 l9 main-content">
+						<div className="row content-header">
+							<h4>
+								<b>Hey there,</b> {user.name.split(' ')[0]}
+								<p className="flow-text grey-text text-darken-1">Welcome to Give Me Sum Space!</p>
+							</h4>
+						</div>
+						<div className="row main-content">
+							<div className="col s12 m6">
+								<div className="card">
+									<div className="card-image">
+										<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/white-living-room-windows-1582223933.jpg?crop=0.670xw:1.00xh;0.170xw,0&resize=640:*" />
+										<span className="card-title">Profile Homes</span>
+										<a className="btn-floating halfway-fab waves-effect waves-light blue">
+											<Link to="/profile">
+												<i className="material-icons">home</i>
+											</Link>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div className="col s12 m6">
+								<div className="card">
+									<div className="card-image">
+										<img src="https://specials-images.forbesimg.com/imageserve/5d5c404e95808800097d661b/960x0.jpg?fit=scale" />
+										<span className="card-title">Find a Home!</span>
+										<a className="btn-floating halfway-fab waves-effect waves-light blue">
+											<Link to="/profile">
+												<i className="material-icons">home</i>
+											</Link>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

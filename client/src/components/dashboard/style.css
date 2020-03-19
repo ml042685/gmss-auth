@@ -4,6 +4,24 @@
 
 }
 
+.main-content {
+    padding-left: 5rem;
+    margin: 5rem, 5rem, 5rem, 5rem;
+    flex-wrap: inherit;
+}
+
+img {
+    border-radius: 50%;
+    height: 400px;
+    width: 300px;
+    opacity: 0.9;
+}
+
+.content-header {
+    padding-left: 5rem;
+    margin-left: 5rem;
+}
+
 .side-bar {
     position: fixed;
     /* Fixed Sidebar (stay in place on scroll) */
