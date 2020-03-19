@@ -51,11 +51,12 @@ class Dashboard extends Component {
 									<div className="card-image">
 										<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/white-living-room-windows-1582223933.jpg?crop=0.670xw:1.00xh;0.170xw,0&resize=640:*" />
 										<span className="card-title">Profile Homes</span>
-										<a className="btn-floating halfway-fab waves-effect waves-light blue">
-											<Link to="/profile">
-												<i className="material-icons">home</i>
-											</Link>
-										</a>
+										<Link
+											to="/profile"
+											className="btn-floating halfway-fab waves-effect waves-light blue"
+										>
+											<i className="material-icons left">home</i>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -65,11 +66,9 @@ class Dashboard extends Component {
 									<div className="card-image">
 										<img src="https://specials-images.forbesimg.com/imageserve/5d5c404e95808800097d661b/960x0.jpg?fit=scale" />
 										<span className="card-title">Find a Home!</span>
-										<a className="btn-floating halfway-fab waves-effect waves-light blue">
-											<Link to="/profile">
-												<i className="material-icons">home</i>
-											</Link>
-										</a>
+										<Link to="/" className="btn-floating halfway-fab waves-effect waves-light blue">
+											<i className="material-icons left">home</i>
+										</Link>
 									</div>
 								</div>
 							</div>

@@ -4,14 +4,14 @@ import './style.css';
 class Landing extends Component {
 	render() {
 		return (
-			<div style={{ height: '75vh' }} className="container valign-wrapper" id="landing">
+			<div style={{ height: '90vh' }} className="container valign-wrapper" id="landing">
 				<div className="row">
 					<div className="col s12 center-align">
-						<h4 className="-text">
+						<h4 className="text h4-land">
 							<b>Welcome to Give Me Some Space</b>
 						</h4>
 						<br />
-						<p className="flow-text white-text text-darken-2">The search for your new pad starts here!</p>
+						<p className="flow-text p-land ">The search for your new pad starts here!</p>
 						<br />
 						<div className="col s6">
 							<Link
