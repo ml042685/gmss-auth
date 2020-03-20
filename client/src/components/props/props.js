@@ -4,8 +4,8 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { logoutUser } from '../../actions/authActions';
 import './style.css';
-import HouseCard from '../housecard/Housecard';
 import homes from '../../homes.json';
+import HouseCard from '../housecard/Housecard';
 class Props extends Component {
 	onLogoutClick = (e) => {
 		e.preventDefault();
@@ -31,6 +31,9 @@ class Props extends Component {
 										<Link to="/profile">Profile</Link>
 									</a>
 									<a className="grey-text text-lighten-3">
+										<Link to="/newhouse">Add house</Link>
+									</a>
+									<a className="grey-text text-lighten-3">
 										<Link to="/props">Props</Link>
 									</a>
 								</ul>
@@ -43,29 +46,21 @@ class Props extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="right col s12 m8 l9 main-content">
-						<div className="row content-header">
-							<h4>
-								<b>Hey there,</b> {user.name.split(' ')[0]}
-								<p className="flow-text grey-text text-darken-1">Welcome to Give Me Sum Space!</p>
-							</h4>
-						</div>
-						<div className="right col push-s3 s12 m8 l9" id="homeCards">
-							<HouseCard
-								name={homes[5].name}
-								image={homes[5].image}
-								description={homes[5].description}
-								rooms={homes[5].rooms}
-								price={homes[5].price}
-							/>
-							<HouseCard
-								name={homes[6].name}
-								image={homes[6].image}
-								rooms={homes[6].rooms}
-								description={homes[6].description}
-								price={homes[6].price}
-							/>
-						</div>
+					<div className="right col push-s3 s12 m8 l9" id="homeCards">
+						<HouseCard
+							name={homes[4].name}
+							image={homes[4].image}
+							description={homes[4].description}
+							rooms={homes[4].rooms}
+							price={homes[4].price}
+						/>
+						<HouseCard
+							name={homes[5].name}
+							image={homes[5].image}
+							rooms={homes[5].rooms}
+							description={homes[5].description}
+							price={homes[5].price}
+						/>
 					</div>
 				</div>
 			</div>
