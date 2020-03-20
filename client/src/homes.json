@@ -89,5 +89,52 @@
       }
     ],
     "price": "$500/Month"
+  },
+  {
+    "id": 5,
+    "name": "Modern House",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ffreshome.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fcontemporary-exterior.jpg&imgrefurl=https%3A%2F%2Ffreshome.com%2Finspiration%2Fcontemporary-home%2F&tbnid=L71IlRWcbOYfUM&vet=12ahUKEwiG4_yC4qfoAhXMe6wKHTCeAiUQMygLegUIARCgAg..i&docid=LSRDQVoFevxPnM&w=1067&h=648&q=house&ved=2ahUKEwiG4_yC4qfoAhXMe6wKHTCeAiUQMygLegUIARCgAg",
+    "description": "THis is a lovely Country Cottage! It is in a great nieghborhood too!",
+    "rooms": [{
+        "id": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/minimal-bedroom-small-spaces-1551546274.jpg?crop=0.640xw:1.00xh;0.174xw,0&resize=640:*",
+        "price": "$350/Month"
+      },
+      {
+        "id": 2,
+        "image": "https://i.pinimg.com/originals/22/7e/b6/227eb6fef14786c1ad627379ac22c8ab.jpg",
+        "price": "$300/Month"
+      },
+      {
+        "id": 3,
+        "image": "https://i.pinimg.com/originals/6f/22/3c/6f223ccdfcfdba572513d6beecb65de5.jpg",
+        "price": "$370/Month"
+      }
+    ],
+    "price": "$375/Month"
+  },
+  {
+    "id": 6,
+    "name": "Country Cottage",
+    "image": "https://odis.homeaway.com/odis/listing/c759b319-a055-4c30-858a-5c4e445ed9e7.f6.jpg",
+    "description": "THis is a lovely Country Cottage! It is in a great nieghborhood too!",
+    "rooms": [{
+        "id": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/minimal-bedroom-small-spaces-1551546274.jpg?crop=0.640xw:1.00xh;0.174xw,0&resize=640:*",
+        "price": "$350/Month"
+      },
+      {
+        "id": 2,
+        "image": "https://i.pinimg.com/originals/22/7e/b6/227eb6fef14786c1ad627379ac22c8ab.jpg",
+        "price": "$300/Month"
+      },
+      {
+        "id": 3,
+        "image": "https://i.pinimg.com/originals/6f/22/3c/6f223ccdfcfdba572513d6beecb65de5.jpg",
+        "price": "$370/Month"
+      }
+    ],
+    "price": "$375/Month"
   }
+
 ]
