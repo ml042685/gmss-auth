@@ -31,9 +31,12 @@ class Dashboard extends Component {
 									<a className="grey-text text-lighten-3">
 										<Link to="/newhouse">Add house</Link>
 									</a>
+<<<<<<< HEAD
 									<a className="grey-text text-lighten-3">
 										<Link to="/props">Props</Link>
 									</a>
+=======
+>>>>>>> c4caaaec3e2c83038b7b3218545e995ac9ef9b14
 								</ul>
 								<button
 									onClick={this.onLogoutClick}

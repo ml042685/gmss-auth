@@ -13,7 +13,10 @@ import PrivateRoute from './components/private-route/PrivateRoute';
 import Dashboard from './components/dashboard/Dashboard';
 import Profile from './components/profile/Profile';
 import Newhouse from './components/newhouse/Newhouse';
+<<<<<<< HEAD
 import Props from './components/props/props';
+=======
+>>>>>>> c4caaaec3e2c83038b7b3218545e995ac9ef9b14
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
 	// Set auth token header auth
@@ -46,7 +49,10 @@ class App extends Component {
 							<PrivateRoute exact path="/dashboard" component={Dashboard} />
 							<PrivateRoute exact path="/profile" component={Profile} />
 							<PrivateRoute exact path="/newhouse" component={Newhouse} />
+<<<<<<< HEAD
 							<PrivateRoute exact path="/props" component={Props} />
+=======
+>>>>>>> c4caaaec3e2c83038b7b3218545e995ac9ef9b14
 						</Switch>
 					</div>
 				</Router>
