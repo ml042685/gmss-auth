@@ -93,7 +93,7 @@
   {
     "id": 5,
     "name": "Modern House",
-    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ffreshome.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fcontemporary-exterior.jpg&imgrefurl=https%3A%2F%2Ffreshome.com%2Finspiration%2Fcontemporary-home%2F&tbnid=L71IlRWcbOYfUM&vet=12ahUKEwiG4_yC4qfoAhXMe6wKHTCeAiUQMygLegUIARCgAg..i&docid=LSRDQVoFevxPnM&w=1067&h=648&q=house&ved=2ahUKEwiG4_yC4qfoAhXMe6wKHTCeAiUQMygLegUIARCgAg",
+    "image": "https://freshome.com/wp-content/uploads/2018/09/contemporary-exterior.jpg",
     "description": "THis is a lovely Country Cottage! It is in a great nieghborhood too!",
     "rooms": [{
         "id": 1,
@@ -136,5 +136,4 @@
     ],
     "price": "$375/Month"
   }
-
 ]
